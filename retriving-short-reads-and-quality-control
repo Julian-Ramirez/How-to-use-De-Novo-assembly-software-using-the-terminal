@@ -1,0 +1,17 @@
+# Now we are going to download our short reads and do some quality control.
+# I mounted a hard disk (1TB) at "/assembly" and made a directory called "/assembly/sga-assembly/pichia"
+# To download our sequences we are going to use NCBI's Short Read Assembly (SRA) toolkit.
+# In the depencencies step we downloaded this tool.
+
+# I started by making a directory to place our data in
+# We are going to assemble pichia pastourus as a test run.
+
+sudo mkdir /assembly/sga-assembly/pichia/shortreads
+
+cd /assembly/sga-assembly/pichia/shortreads
+
+# We are going to assemble pichia pastourus as a test run. The first step is to downlload our short
+# reads from NCBI's server.
+
+fastq-dump --gzip --split-files ERR1294016
+
