@@ -27,4 +27,12 @@ conda install -c bioconda ruffus
 
 conda install -c bioconda sra-tools
 
+#I am using google's cloud services so I fired up the smallest machine I could make and I started
+# rolling. We will need to attach another hard drive later to store the data we are going to process.
+# I tend to install the depenencies and the data on separate disks.
+
+# Now you must create a large disk for our data (I reccomend 1TB) then we must mount the new disk and
+# create a direcotory for it. You can use the instructions here to monunt the disk and creatge
+# your desired directory. https://devopscube.com/mount-extra-disks-on-google-cloud/
+
 # We are now all ready to run our pipeline! 
