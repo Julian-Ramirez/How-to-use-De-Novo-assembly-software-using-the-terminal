@@ -5,8 +5,10 @@
 # using the conda package manager. 
 
 # These are are the steps for installing Miniconda for an ubuntu/debian based distro of linux.
-mkdir ~/sga-assembly/install-files
-cd ~/sga-assembly/install-files
+mkdir sga-assembly
+cd sga-assembly
+mkdir install-files
+cd install-files
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
