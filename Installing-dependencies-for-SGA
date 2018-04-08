@@ -12,21 +12,4 @@ cd install-files
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
-# Now that the conda package mangager was installed now we can use it!
-# We will now use conda commands to install all of the required dependencies for sga
-
-conda install -c bioconda -y google-sparsehash 
-
-conda install -c bioconda -y bamtools 
-
-conda install -c conda-forge -y zlib 
-
-conda install -c bioconda -y pysam
-
-conda install -c bioconda -y ruffus 
-
-# Now we will install NCBI's tools for downloading short reads. This is called the sra-tools
-
-conda install -c bioconda -y sra-tools
-
-# We are now all ready to run our pipeline! 
+# Now we must close the terminal and start a new one so we can install the rest of the dependencies using conda
