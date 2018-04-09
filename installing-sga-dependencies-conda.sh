@@ -16,7 +16,7 @@ conda install -c bioconda -y pysam
 
 conda install -c bioconda -y ruffus 
 
- conda install -c bioconda -y bwa 
+conda install -c bioconda -y bwa 
 
 conda install -c bioconda -y sga
 
