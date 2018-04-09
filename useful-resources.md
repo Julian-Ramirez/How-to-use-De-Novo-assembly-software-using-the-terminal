@@ -7,4 +7,4 @@ http://userweb.eng.gla.ac.uk/umer.ijaz/bioinformatics/linux.html
 
 how to mount a hard drive using the command line
 
-https://www.cyberciti.biz/faq/mount-drive-from-command-line-ubuntu-linux/
+https://help.ubuntu.com/community/InstallingANewHardDrive
