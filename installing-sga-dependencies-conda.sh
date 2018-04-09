@@ -4,6 +4,7 @@
 # We will now use conda commands to install all of the required dependencies for sga 
 # Note: never run a conda command as "sudo conda" it will mess things up!
 
+conda update -n base -y conda
 
 conda install -c bioconda -y google-sparsehash 
 
