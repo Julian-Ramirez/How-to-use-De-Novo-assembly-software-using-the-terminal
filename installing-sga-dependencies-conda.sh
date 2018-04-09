@@ -15,6 +15,8 @@ conda install -c bioconda -y pysam
 
 conda install -c bioconda -y ruffus 
 
+conda install -c bioconda -y sga
+
 # Now we will install NCBI's tools for downloading short reads. This is called the sra-tools
 
 conda install -c bioconda -y sra-tools
