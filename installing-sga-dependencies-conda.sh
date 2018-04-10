@@ -1,10 +1,13 @@
 #!/bin/sh
 
-# Now that the conda package mangager was installed now we can use it!
+# First we will update conda
+
+conda update -n base -y conda
+
+# Now that the conda package mangager was installed and updated now we can use it!
 # We will now use conda commands to install all of the required dependencies for sga 
 # Note: never run a conda command as "sudo conda" it will mess things up!
 
-conda update -n base -y conda
 
 conda install -c bioconda -y google-sparsehash 
 
@@ -23,5 +26,9 @@ conda install -c bioconda -y sga
 # Now we will install NCBI's tools for downloading short reads. This is called the sra-tools
 
 conda install -c bioconda -y sra-tools
+
+# This is a tool used for quality checking reads to make sure they are up to spec!
+
+conda install -c bioconda -y fastqc
 
 # We are now all ready to run our pipeline! 
