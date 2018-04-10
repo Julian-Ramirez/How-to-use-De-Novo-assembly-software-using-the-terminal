@@ -5,7 +5,6 @@
 # To download our sequences we are going to use NCBI's Short Read Assembly (SRA) toolkit.
 
 # I started by making a directory to place our data in
-cd sga-assembly
 
 mkdir pichia
 
