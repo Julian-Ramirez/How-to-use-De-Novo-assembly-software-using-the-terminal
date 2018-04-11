@@ -8,6 +8,15 @@ What is N50?
 
 http://www.molecularecologist.com/2017/03/whats-n50/
 
+QUAST for evaluating the quality of an assembly
+
+http://bioinf.spbau.ru/quast
+
+http://quast.bioinf.spbau.ru/manual.html#sec2
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3624806/
+
 
 how to mount a hard drive using the command line
 
