@@ -18,6 +18,11 @@ http://quast.bioinf.spbau.ru/manual.html#sec2
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3624806/
 
 
+NCBI Genome entry for Pichia P.
+
+https://www.ncbi.nlm.nih.gov/genome/338
+
+
 how to mount a hard drive using the command line
 
 https://help.ubuntu.com/community/InstallingANewHardDrive
