@@ -4,6 +4,10 @@ When I am using the command line I always had this cheat sheet up. It is very us
 
 http://userweb.eng.gla.ac.uk/umer.ijaz/bioinformatics/linux.html
 
+What is N50?
+
+http://www.molecularecologist.com/2017/03/whats-n50/
+
 
 how to mount a hard drive using the command line
 
