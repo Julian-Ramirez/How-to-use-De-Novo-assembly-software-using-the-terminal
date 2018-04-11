@@ -19,6 +19,8 @@ File permissions
 
 https://peadrop.com/blog/2007/01/02/understanding-linux-file-permissions/
 
+https://en.wikipedia.org/wiki/Chmod
+
 The other answers are correct, in that chmod -R 755 will set this as permissions to all files and folders in the tree. But why on earth would you want to? It might make sense for the directories, but why set the execute bit on all the files?
 
 I suspect what you really want to do is set the directories to 755 and either leave the files alone or set them to 644. For this, you can use the find command. For example:
