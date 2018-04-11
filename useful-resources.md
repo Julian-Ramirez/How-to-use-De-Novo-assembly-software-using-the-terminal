@@ -22,6 +22,8 @@ NCBI Genome entry for Pichia P.
 
 https://www.ncbi.nlm.nih.gov/genome/338
 
+https://www.ncbi.nlm.nih.gov/assembly/GCA_001708105.1
+
 
 how to mount a hard drive using the command line
 
